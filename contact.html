@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Shift Pattern Studio for professional website design services. Get a free quote for your business website today.">
+  <meta name="keywords" content="website design, web development, digital agency, business website, e-commerce, portfolio">
+  <meta name="author" content="Shift Pattern Studio">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact Us | Shift Pattern Studio - Get Your Website">
+  <meta property="og:description" content="Contact Shift Pattern Studio for professional website design services. Get a free quote for your business website today.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shiftpatternstudio.com">
+  <meta property="og:image" content="assets/logo/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact Us | Shift Pattern Studio - Get Your Website">
+  <meta name="twitter:description" content="Contact Shift Pattern Studio for professional website design services. Get a free quote for your business website today.">
+
+  <title>Contact Us | Shift Pattern Studio - Get Your Website</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700;800&family=Orbitron:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo" aria-label="Shift Pattern Studio Home">
+        <div class="logo-mark">
+          <span class="logo-sp">SP</span>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">SHIFT PATTERN</span>
+          <span class="logo-studio">STUDIO</span>
+        </div>
+      </a>
+
+      <div class="nav-links" role="menubar">
+        <a href="index.html" role="menuitem">Home</a>
+        <a href="about.html" role="menuitem">About</a>
+        <a href="services.html" role="menuitem">Services</a>
+        <a href="portfolio.html" role="menuitem">Portfolio</a>
+        <a href="pricing.html" role="menuitem">Pricing</a>
+        <a href="contact.html" role="menuitem">Contact</a>
+      </div>
+
+      <a href="contact.html" class="btn btn-primary nav-cta">Get Your Website</a>
+
+      <button class="mobile-menu-btn" aria-label="Open Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" role="dialog" aria-label="Mobile Menu" aria-hidden="true">
+    <button class="mobile-nav-close" aria-label="Close Menu">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="mobile-nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary" style="margin-top: 2rem;">Get Your Website</a>
+  </div>
+
+
+  <!-- Contact Hero -->
+  <section class="page-hero">
+    <div class="container text-center">
+      <p class="page-tagline reveal">LET'S TALK</p>
+      <h1 class="reveal">LET'S BUILD<br><span class="text-gradient-gold">YOUR WEBSITE.</span></h1>
+      <p class="page-desc reveal">Tell us about your project and we'll get back to you within 24 hours.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-form-wrapper reveal">
+          <form id="contactForm" class="contact-form liquid-glass" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">FULL NAME *</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name">
+              </div>
+              <div class="form-group">
+                <label for="business">BUSINESS NAME</label>
+                <input type="text" id="business" name="business" placeholder="Your business name">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">PHONE NUMBER *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
+              </div>
+              <div class="form-group">
+                <label for="email">EMAIL *</label>
+                <input type="email" id="email" name="email" required placeholder="your@email.com">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="type">WEBSITE TYPE *</label>
+                <select id="type" name="type" required>
+                  <option value="">Select website type</option>
+                  <option value="Business Website">Business Website</option>
+                  <option value="Restaurant Website">Restaurant Website</option>
+                  <option value="Construction Website">Construction Website</option>
+                  <option value="E-Commerce">E-Commerce</option>
+                  <option value="Portfolio">Portfolio</option>
+                  <option value="Landing Page">Landing Page</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="budget">BUDGET RANGE</label>
+                <select id="budget" name="budget">
+                  <option value="">Select budget</option>
+                  <option value="Under ₹10,000">Under ₹10,000</option>
+                  <option value="₹10,000 - ₹25,000">₹10,000 - ₹25,000</option>
+                  <option value="₹25,000 - ₹50,000">₹25,000 - ₹50,000</option>
+                  <option value="₹50,000+">₹50,000+</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">MESSAGE *</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project, requirements, and any specific features you need..."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-shine">
+                <i class="fas fa-paper-plane"></i> SEND ENQUIRY
+              </button>
+              <button type="button" id="whatsappFormBtn" class="btn btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> SEND VIA WHATSAPP
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-info reveal stagger-1">
+          <div class="contact-info-card liquid-glass">
+            <h3><i class="fas fa-phone text-gold"></i> PHONE</h3>
+            <p>+91 97891 74588</p>
+            <a href="#" class="btn btn-whatsapp" data-whatsapp style="margin-top: 1rem;">
+              <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+
+          <div class="contact-info-card liquid-glass">
+            <h3><i class="fas fa-envelope text-gold"></i> EMAIL</h3>
+            <p>hello@shiftpatternstudio.com</p>
+          </div>
+
+          <div class="contact-info-card liquid-glass">
+            <h3><i class="fas fa-clock text-gold"></i> RESPONSE TIME</h3>
+            <p>We typically respond within 24 hours during business days.</p>
+          </div>
+
+          <div class="contact-info-card liquid-glass">
+            <h3><i class="fas fa-map-marker-alt text-gold"></i> LOCATION</h3>
+            <p>India</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <span class="logo-sp">SP</span>
+            <div>
+              <span>SHIFT PATTERN</span>
+              <span>STUDIO</span>
+            </div>
+          </a>
+          <p class="footer-tagline">Design • Develop • Elevate</p>
+          <p class="footer-desc">Professional website design and development for businesses that want to stand out online.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" data-whatsapp aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Business Websites</a></li>
+            <li><a href="services.html">E-Commerce</a></li>
+            <li><a href="services.html">Landing Pages</a></li>
+            <li><a href="services.html">Portfolio Sites</a></li>
+            <li><a href="services.html">Restaurant Websites</a></li>
+            <li><a href="services.html">WhatsApp Integration</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-phone"></i> +91 97891 74588</p>
+          <p><i class="fas fa-envelope"></i> hello@shiftpatternstudio.com</p>
+          <a href="contact.html" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span class="current-year">2026</span> Shift Pattern Studio. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="#" class="whatsapp-float" data-whatsapp aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Background Effects -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="particles" aria-hidden="true"></div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
