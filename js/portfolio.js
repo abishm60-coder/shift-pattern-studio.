@@ -67,7 +67,7 @@ const projects = [
   },
   {
     id: "abish-portfolio",
-    title: "Abish Portfolio",
+    title: "Portfolio",
     category: "Portfolio",
     image: "assets/projects/portfolio.jpg",
     description: "A professional and modern personal portfolio showcasing skills, experience, and projects.",
