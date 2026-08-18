@@ -155,9 +155,7 @@ function renderProjects(filter) {
     card.innerHTML = `
       <a href="${targetLink}" ${targetAttr} style="display: block; color: inherit;">
         <div class="portfolio-image img-zoom">
-          <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #1a1a1a, #0a0a0a); height: 280px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 3rem;">
-            <i class="fas fa-image"></i>
-          </div>
+          <img src="${project.image}" alt="${project.title}" style="width: 100%; height: 280px; object-fit: cover;">
           <div class="portfolio-overlay">
             <span class="btn btn-primary btn-shine">${btnText}</span>
           </div>
