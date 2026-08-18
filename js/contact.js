@@ -138,6 +138,10 @@ function initWhatsAppForm() {
   whatsappBtn.addEventListener('click', function(e) {
     e.preventDefault();
 
+    if (!validateForm()) {
+      return;
+    }
+
     const form = document.getElementById('contactForm');
     const formData = new FormData(form);
 
